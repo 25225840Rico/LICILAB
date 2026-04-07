@@ -37,15 +37,6 @@ cd licilab
 npm install
 ```
 
-### 5. Configurar variables
-
-Editar `.env.local` en la raíz del proyecto:
-
-```
-CHILECOMPRA_TICKET=0270331F-17BF-4BC7-96D6-74D6CCF7799D
-OLLAMA_URL=http://localhost:11434
-```
-
 (El ticket ya viene configurado. Supabase es opcional.)
 
 ### 6. Arrancar
