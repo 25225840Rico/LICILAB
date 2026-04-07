@@ -85,16 +85,7 @@ git push -u origin main
 
 ## DEPLOY A VERCEL
 
-1. Ir a https://vercel.com → Sign in con GitHub
-2. Click "Import Project" → seleccionar repo `licilab`
-3. En "Environment Variables" agregar:
-   ```
-   CHILECOMPRA_TICKET = 0270331F-17BF-4BC7-96D6-74D6CCF7799D
-   OLLAMA_URL = http://localhost:11434
-   ```
-4. Click "Deploy"
 
-**Nota:** En Vercel, Ollama no estará disponible (es local). El análisis usará el fallback heurístico. Para IA completa, usar en local.
 
 ---
 
